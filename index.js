@@ -246,6 +246,7 @@ function mostrarDiscos() {
 function buscarDisco(inputCodigo) {
     
     inputCodigo = parseInt(prompt("Ingrese el código de búsqueda"));
+    let discoExistente;
 
     
     for(let disco of discos) {
@@ -253,14 +254,15 @@ function buscarDisco(inputCodigo) {
             const cardCD = document.getElementById("cardCD");
             cardCD.innerHTML = "";
             disco.mostrar();
+            discoExistente = true;
         } 
-    }
+    } 
 
-    for(let disco of discos) {
-        if (inputCodigo !== disco.codigo) {
-            alert("No se encontraron discos con ese código");
-        } 
-    }
+    
+    if (!discoExistente) {
+        alert("No se encontraron discos con ese código");
+    } 
+
 
     if (isNaN(inputCodigo)) {
         alert("Si quiere buscar un disco, ingrese solo el código numérico");

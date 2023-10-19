@@ -1,0 +1,70 @@
+.card {
+    background-color: rgb(32, 17, 17);
+    color: white;
+    border-radius: 12px;
+}
+
+.cardMas {
+    background-color: rgb(20, 20, 20);
+    text-align: center;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: white
+}
+
+.textNav {
+    color: white;
+}
+
+.textNav:hover {
+    color: rgb(248, 229, 226);
+}
+
+
+.cardMas:hover {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    background-color: rgb(53, 52, 52);
+    color: rgb(248, 229, 226); 
+}
+
+.cardCd:hover {
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.4);
+    transform: translateY(-1%);
+    
+}
+
+.cardTitle0 {
+    background-color: #B996A4;
+    border-radius: 12px 12px 0px 0px;
+}
+
+.cardTitle1 {
+    background-color: #488C58;
+    border-radius: 12px 12px 0px 0px;
+}
+
+
+.bg-largest {
+    background-color: rgb(32, 17, 17);
+    font-size: 16px;
+}
+
+.navLateral {
+    background-color: #080808fb;
+    border-radius: 12px;
+}
+
+.red {
+    color: rgb(221 120 120);
+}
+
+.alert {
+    background-color: rgba(32, 17, 17, 0.527);
+    width: fit-content;
+
+}
+
+
